@@ -45,12 +45,13 @@ main {
 
 .tab-content {
   display: none;
-  width: 100%;
-  max-width: 800px;
-  background-color: #fff8f0;
-  border-radius: 20px;
-  padding: 2rem;
-  box-shadow: 0 0 15px #ce93d8;
+}
+.tab-content.active {
+  display: block;
+}
+.tab-btn.active {
+  background-color: #f48fb1;
+  box-shadow: 0 0 10px #f8bbd0;
 }
 
 .tab-content.active {
@@ -146,3 +147,4 @@ footer {
   background-color: #e1bee7;
   font-size: 0.9rem;
 }
+
